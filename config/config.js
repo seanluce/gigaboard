@@ -63,7 +63,15 @@ var config = {
         }
       ]
     }
-  },
+    },
+    {
+      module: "MMM-Memo",
+      position: "top_left",
+      config: {
+        memoTitle: "Shopping",
+        memoDisplayIfEmpty: "True"
+      }
+    },
     {
       module: "compliments",
       position: "lower_third"
