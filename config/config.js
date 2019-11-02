@@ -108,7 +108,7 @@ var config = {
     },
     {
       module: 'MMM-Dad-Jokes',
-      position: 'lower_third', // Or wherever you want
+      position: 'bottom_center', // Or wherever you want
       config: {
           updateInterval: 60000,
           fadeSpeed: 4000
@@ -148,22 +148,6 @@ var config = {
       config: {
         locationID: "4996248",  //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
         appid: "a3d6458372673847c2aedb6ab7537b5f" 
-      }
-    },
-    {
-      module: "newsfeed",
-      position: "bottom_bar",
-      config: {
-        feeds: [
-          {
-            title: "New York Times",
-            url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-          }
-        ],
-        showSourceTitle: true,
-        showPublishDate: true,
-        broadcastNewsFeeds: true,
-        broadcastNewsUpdates: true
       }
     },
   ]
