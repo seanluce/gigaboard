@@ -22,7 +22,7 @@ var config = {
   // ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.3.0/28"],
 
   language: "en",
-  timeFormat: 24,
+  timeFormat: 12,
   units: "metric",
 
   modules: [
@@ -50,6 +50,20 @@ var config = {
         ]
       }
     },
+    {
+    module: "calendar",
+    header: "AUS Holidays",
+    position: "top_left",
+    config: {
+      calendars: [
+        {
+          symbol: "calendar-check",
+          url: "webcal://www.calendarlabs.com/ical-calendar/ics/35/Australia_Holidays.ics"
+          
+        }
+      ]
+    }
+  },
     {
       module: "compliments",
       position: "lower_third"
