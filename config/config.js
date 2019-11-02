@@ -73,6 +73,14 @@ var config = {
       }
     },
     {
+      module: 'MMM-Dad-Jokes',
+      position: 'top_bar', // Or wherever you want
+      config: {
+          updateInterval: 60000,
+          fadeSpeed: 4000
+      }
+    },
+    {
       module: "compliments",
       position: "lower_third"
     },
