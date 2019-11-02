@@ -1,3 +1,6 @@
 [submodule "modules/MMM-MyScoreboard"]
 	path = modules/MMM-MyScoreboard
 	url = https://github.com/jclarke0000/MMM-MyScoreboard
+[submodule "modules/MMM-Memo"]
+	path = modules/MMM-Memo
+	url = https://github.com/schnibel/MMM-Memo.git
