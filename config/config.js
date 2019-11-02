@@ -81,6 +81,21 @@ var config = {
       }
     },
     {
+      module: "MMM-MyScoreboard",
+      position: "top_right",
+      config: {
+        showLeagueSeparators: true,
+        colored: true,
+        viewStyle: "mediumLogos",
+        sports: [
+          {
+            league: "NFL",
+            teams: ["DET"]
+          }
+        ]
+      }
+    },
+    {
       module: "compliments",
       position: "lower_third"
     },
@@ -117,18 +132,6 @@ var config = {
         broadcastNewsUpdates: true
       }
     },
-    {
-      module: "MMM-MyScoreboard",
-      position: "top_right",
-      config: {
-        sports: [
-          {
-            league: "NFL",
-            teams: ["DET"]
-          }
-        ]
-      }
-    }
   ]
 
 };
