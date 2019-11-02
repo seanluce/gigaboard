@@ -30,12 +30,46 @@ var config = {
       module: "alert",
     },
     {
+      module: "MMM-Wallpaper",
+      position: "fullscreen_below",
+      config: { // See "Configuration options" for more information.
+        //source: "bing",
+        source: "/r/australia",
+        slideInterval: 60 * 1000 // Change slides every minute
+      }
+    },
+    {
       module: "updatenotification",
       position: "top_bar"
     },
     {
       module: "clock",
       position: "top_left"
+    },
+    {
+      module: 'worldclock',
+      position: 'top_left', // This can be any of the regions, best results in top_left or top_right regions
+      config: {
+        // See 'Configuration options' for more information.
+    
+        timeFormat: 'HH:mm A', //defined in moment.js format()
+        style: 'left', //predefined 4 styles; 'top', 'left','right','bottom'
+        offsetTimezone: null, // Or you can set `Europe/Berlin` to get timegap difference from this timezone. `null` will be UTC timegap.
+        clocks: [
+          {
+            title: "Holland",
+          },
+          {
+            title: "Sydney", // Too long title could cause ugly text align.
+            timezone: "Australia/Sydney", //When omitted, Localtime will be displayed. It might be not your purporse, I bet.
+            //flag: "au",
+          },
+          {
+            title: "Sunnyvale",
+            timezone: "US/Pacific",
+          },
+        ]
+      }
     },
     {
       module: "calendar",
@@ -74,7 +108,7 @@ var config = {
     },
     {
       module: 'MMM-Dad-Jokes',
-      position: 'top_bar', // Or wherever you want
+      position: 'lower_third', // Or wherever you want
       config: {
           updateInterval: 60000,
           fadeSpeed: 4000

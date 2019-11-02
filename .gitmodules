@@ -4,3 +4,9 @@
 [submodule "modules/MMM-Dad-Jokes"]
 	path = modules/MMM-Dad-Jokes
 	url = https://github.com/echang15/MMM-Dad-Jokes.git
+[submodule "modules/WWW-Wall"]
+	path = modules/WWW-Wall
+	url = https://github.com/kolbyjack/MMM-Wallpaper.git
+[submodule "modules/MMM-Wallpaper"]
+	path = modules/MMM-Wallpaper
+	url = https://github.com/kolbyjack/MMM-Wallpaper.git
