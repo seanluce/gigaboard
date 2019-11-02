@@ -1,3 +1,6 @@
 [submodule "modules/MMM-Memo"]
 	path = modules/MMM-Memo
 	url = https://github.com/schnibel/MMM-Memo.git
+[submodule "modules/MMM-Dad-Jokes"]
+	path = modules/MMM-Dad-Jokes
+	url = https://github.com/echang15/MMM-Dad-Jokes.git
